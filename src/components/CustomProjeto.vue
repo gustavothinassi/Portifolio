@@ -11,11 +11,11 @@
         </p>
       </div>
       <div class="px-6 pt-4 pb-6">
-        <button class="bg-gray-200 text-sm uppercase rounded-xl mr-10 text-black font-bold py-2 px-4 inline-flex items-center">
+        <button class="bg-gray-200 text-sm uppercase rounded-xl mr-4 text-black font-bold py-2 px-4 inline-flex items-center">
             <img class="w-5 h-5 mr-2" src="../assets/images/eye.png"/>
             <span>Demo</span>
         </button>
-        <button class="mr-10 text-sm bg-gray-200 uppercase rounded-xl text-black font-bold py-2 px-4 inline-flex items-center">
+        <button class="mr-4 text-sm bg-gray-200 uppercase rounded-xl text-black font-bold py-2 px-4 inline-flex items-center">
             <img class="w-5 h-5 mr-2" src="../assets/images/github.png"/>
             <span>Repo</span>
         </button>

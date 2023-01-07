@@ -9,8 +9,8 @@
           <img src="../assets/images/instagram.png" alt="" class="h-4">
         </a>
       </div>
-      <p class="md:text-md sm:text-sm font-base text-center text-white text-base mt-8 tracking-wider">
-        &copy; Copyright, Coded with by <span class="text-gray-200">Gustavo Thinassi</span>
+      <p class="text-sm text-center text-white mt-8 tracking-wider">
+        &copy; Copyright, Coded with by <span class="text-brand-thirdblue">Gustavo Thinassi</span>
       </p>
     </div>
   </footer>

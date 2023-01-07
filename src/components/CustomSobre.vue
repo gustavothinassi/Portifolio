@@ -5,7 +5,7 @@
           <img class="w-48 h-full" src="../assets/images/puntos4.png" alt="pontos">
     </div>
     <div class="max-w-6xl grid grid-flow-row-dense grid-cols-1 lg:grid-cols-2 lg:gap-16 w-full mb-20">
-    <div class="w-full h-full z-10 p-10 md:p-16 max-[768px]:order-last">
+    <div class="w-full h-full z-10 p-8 md:p-16 max-[768px]:order-last">
        <img src="../assets/images/sobre.png" alt="sobre">
     </div>
     <div class="flex flex-col p-4 md:mt-10">
