@@ -1,0 +1,123 @@
+<template>
+
+<header>
+<div
+  class="text-gray-100 py-1 px-6 md:flex justify-between items-center
+  fixed w-full top-0 animated z-20 backdrop-blur-sm bg-brand-main
+  transition duration-200"
+  :class="{ 'scrolled': !state.atTopOfPage }"
+  >
+        <div class="flex items-center cursor-pointer">
+          <a class="inline-block md:mr-4 sm:ml-4 py-2 whitespace-nowrap" href="#home">
+             <img src="../assets/images/logo-gustavo.png" class="w-36 h-full" alt="">
+          </a>
+      
+        </div>
+    
+        <div class="absolute md:hidden right-6 top-3 cursor-pointer" @click="toggleNavbar()">
+            <button class="cursor-pointer md:hidden block scale-75" :class="{'hidden': state.showMenu, 'flex': !state.showMenu}">
+              <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" :fill="'#fff'"/>
+             </svg>
+            </button>
+            <button class="cursor-pointer md:hidden block scale-75" :class="{'hidden': !state.showMenu, 'flex': state.showMenu}">
+              <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                <path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" :fill="'#fff'"/>
+            </svg>
+            </button>
+        </div>
+
+        <ul 
+        class="md:flex md:items-center md:px-0 px-10 md:pb-0 pb-10 md:static absolute bg-brand-main md:w-auto w-full top-16 duration-500 ease-in-out"
+        :class="{'right-0':state.showMenu, 'right-[-100%]': !state.showMenu}"
+        >
+          <li class="md:mx-4 md:my-0 my-3">
+           <a
+           @click="state.showMenu = false"
+           class="text-lg hover:text-brand-thirdblue hover:transition duration-700" 
+           href="/#home">Home</a>
+          </li>
+          
+          <li class="md:mx-4 md:my-0 my-3">
+           <a
+           @click="state.showMenu = false"
+           class="text-lg hover:text-brand-thirdblue hover:transition duration-700" 
+           href="#sobre">Sobre</a>
+          </li>
+          <li class="md:mx-4 md:my-0 my-3">
+           <a
+           @click="state.showMenu = false"
+           class="text-lg hover:text-brand-thirdblue hover:transition duration-700" 
+           href="#habilidades">Habilidades</a>
+          </li>
+          <li class="md:mx-4 md:my-0 my-3">
+            <a  @click="state.showMenu = false" 
+            class="text-lg hover:text-brand-thirdblue hover:transition duration-700"
+            href="#formacao">Formação</a>
+          </li>
+          <li class="md:mx-4 md:my-0 my-3">
+            <a  @click="state.showMenu = false"
+            class="text-lg hover:text-brand-thirdblue hover:transition duration-700"
+            href="#projetos">Projetos</a>
+          </li>
+          <li class="md:mx-4 md:my-0 my-3">
+            <button class="flex" @click="handleContato()">
+              <svg stroke="currentColor" fill="currentColor"
+              stroke-width="0" viewBox="0 0 16 16" color="white" 
+              height="25" width="25"
+              xmlns="http://www.w3.org/2000/svg"
+              :fill="'#fff'"
+              >
+              <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 008 15z"></path></svg>
+            </button>
+          </li>
+          
+        </ul>
+        
+      </div>
+</header>
+</template>
+
+<script>
+import { onBeforeMount, reactive } from 'vue'
+import useModal from '../hooks/useModal'
+
+export default {
+  setup () {
+    const modal = useModal()
+    const state = reactive({
+      showMenu: false,
+      atTopOfPage: true
+    })
+
+    function toggleNavbar () {
+      state.showMenu = !state.showMenu
+    }
+
+   function handleScroll () {
+
+      if (window.pageYOffset > 0) {
+        if (state.atTopOfPage) state.atTopOfPage = false
+      } else {
+        if (!state.atTopOfPage) state.atTopOfPage = true
+      }
+    }
+
+    function handleContato() {
+      modal.open({
+        component: 'ModalCreateContato'
+      })
+    }
+
+   onBeforeMount(() => {
+      window.addEventListener('scroll', handleScroll)
+    })
+
+    return {
+      state,
+      toggleNavbar,
+      handleContato
+    }
+  }
+}
+</script>

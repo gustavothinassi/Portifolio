@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+
+@layer base {
+    html {
+      scroll-behavior: smooth;
+    }
+}
+@layer components {
+  .hamburger div:first-child {
+    @apply rotate-45 translate-y-1.5;
+  }
+  .hamburger div:last-child {
+    @apply -rotate-45 -translate-y-1;
+  }
+
+  .text-animation {
+    display: inline;
+    border-right: 2px white solid;
+    animation: typebar 0.s steps(40) infinite;
+  }
+  @keyframes typebar {
+    from { 
+      border-right: 20px white solid;
+    }
+    to { 
+      border-right: 20px transparent solid;
+    }
+  }
+
+ .scrolled {
+    @apply shadow-2xl;
+    border-bottom: 0px;
+  }
+
+}
