@@ -28,8 +28,9 @@
         </div>
 
         <ul 
-        class="md:flex md:items-center md:px-0 px-10 md:pb-0 pb-10 md:static absolute bg-brand-main md:w-auto w-full top-16 duration-500 ease-in-out"
-        :class="{'right-0':state.showMenu, 'right-[-100%]': !state.showMenu}"
+        class="md:flex md:items-center md:px-0 px-10 md:pb-0 pb-10 md:static absolute  md:w-auto w-full top-16 duration-500 ease-in-out"
+        :class="{'right-0 bg-brand-secondblue':state.showMenu, 'right-[-100%] bg-brand-main': !state.showMenu}"
+        ref="divRef"
         >
           <li class="md:mx-4 md:my-0 my-3">
            <a
@@ -79,11 +80,12 @@
 </template>
 
 <script>
-import { onBeforeMount, reactive } from 'vue'
+import { onBeforeMount, reactive, ref } from 'vue'
 import useModal from '../hooks/useModal'
 
 export default {
   setup () {
+    const divRef = ref('')
     const modal = useModal()
     const state = reactive({
       showMenu: false,
@@ -94,6 +96,7 @@ export default {
       state.showMenu = !state.showMenu
     }
 
+  
    function handleScroll () {
 
       if (window.pageYOffset > 0) {
@@ -116,7 +119,8 @@ export default {
     return {
       state,
       toggleNavbar,
-      handleContato
+      handleContato,
+      divRef
     }
   }
 }

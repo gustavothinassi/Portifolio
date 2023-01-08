@@ -1,7 +1,7 @@
 <template>
     <section id="formacao" class="flex flex-col items-center bg-brand-secondblue">
     <h2 class="mt-24 text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold text-white">Formação</h2>
-    <div class="max-w-6xl grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-10 mb-20 mt-6 p-10">
+    <div class="max-w-6xl grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-10 mb-20 mt-6 lg:p-10 p-20">
       <div 
         class="grid place-items-center text-center p-8 rounded-md text-white bg-brand-main">
         <div>
