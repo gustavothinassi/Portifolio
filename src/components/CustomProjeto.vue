@@ -11,11 +11,11 @@
         </p>
       </div>
       <div class="px-6 pt-4 pb-6">
-        <a href="portifolio-gustavo.vercel.app" class="bg-gray-200 text-sm uppercase rounded-xl mr-4 text-black font-bold py-2 px-4 inline-flex items-center">
+        <a href="portifolio-gustavo.vercel.app" class="bg-gray-200 text-sm uppercase rounded-xl mr-4 text-black font-bold py-2 px-4 inline-flex items-center hover:opacity-75">
             <img class="w-5 h-5 mr-2" src="../assets/images/eye.png"/>
             <span>Demo</span>
         </a>
-        <a href="https://github.com/gustavothinassi/Portifolio" class="mr-4 text-sm bg-gray-200 uppercase rounded-xl text-black font-bold py-2 px-4 inline-flex items-center">
+        <a href="https://github.com/gustavothinassi/Portifolio" class="mr-4 text-sm bg-gray-200 uppercase rounded-xl text-black font-bold py-2 px-4 inline-flex items-center hover:opacity-75">
             <img class="w-5 h-5 mr-2" src="../assets/images/github.png"/>
             <span>Repo</span>
         </a>
