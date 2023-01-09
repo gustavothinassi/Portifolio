@@ -38,8 +38,11 @@ body,
   }
 
  .scrolled {
-    @apply shadow-2xl;
-    border-bottom: 0px;
+    @apply backdrop-blur-xl bg-brand-secondblue/30
+  }
+
+  .navbar {
+    @apply backdrop-blur-md bg-brand-secondblue/30
   }
 
 }

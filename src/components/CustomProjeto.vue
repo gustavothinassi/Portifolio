@@ -1,7 +1,7 @@
 <template>
   <section id="projetos" class="flex flex-col items-center bg-brand-main">
     <h2 class="mt-24 text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold text-white">Projetos</h2>
-    <div class="p-8 max-w-7xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 mb-20 mt-6">
+    <div class="p-8 max-w-7xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 mb-20 mt-10">
     <div class="overflow-hidden shadow-xl rounded-xl border-2 border-brand-secondblue bg-brand-secondblue">
       <img class="w-full" src="../assets/images/portifolio.png" alt="home">
       <div class="px-6 py-4">

@@ -1,5 +1,5 @@
 <template>
-   <nav-bar />
+   <custom-header />
    <custom-home />
    <custom-sobre />
    <custom-habilidades />
@@ -10,7 +10,7 @@
    </template>
    
    <script>
-   import NavBar from '../../components/NavBar.vue'
+   import CustomHeader from '../../components/CustomHeader.vue'
    import CustomHome from '../../components/CustomHome.vue'
    import CustomSobre from '../../components/CustomSobre.vue'
    import CustomHabilidades from '../../components/CustomHabilidade.vue'
@@ -22,7 +22,7 @@
   
    export default {
      components: {
-       NavBar,
+      CustomHeader,
        CustomHome,
        CustomSobre,
        CustomHabilidades,

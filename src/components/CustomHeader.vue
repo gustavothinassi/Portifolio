@@ -3,7 +3,7 @@
 <header>
 <div
   class="text-gray-100 py-1 px-6 md:flex justify-between items-center
-  fixed w-full top-0 animated z-20 backdrop-blur-sm bg-brand-main
+  fixed w-full top-0 animated z-20 backdrop-blur-sm
   transition duration-200"
   :class="{ 'scrolled': !state.atTopOfPage }"
   >
@@ -28,9 +28,8 @@
         </div>
 
         <ul 
-        class="md:flex md:items-center md:px-0 px-10 md:pb-0 pb-10 md:static absolute  md:w-auto w-full top-16 duration-500 ease-in-out"
-        :class="{'right-0 bg-brand-secondblue':state.showMenu, 'right-[-100%] bg-brand-main': !state.showMenu}"
-        ref="divRef"
+        class="md:flex md:items-center md:px-0 px-10 md:pb-0 pb-10 md:static absolute md:w-auto w-full top-16 duration-500 ease-in-out"
+        :class="{'right-0 bg-brand-secondblue':state.showMenu, 'right-[-100%]': !state.showMenu}"
         >
           <li class="md:mx-4 md:my-0 my-3">
            <a
@@ -80,12 +79,11 @@
 </template>
 
 <script>
-import { onBeforeMount, reactive, ref } from 'vue'
+import { onBeforeMount, reactive } from 'vue'
 import useModal from '../hooks/useModal'
 
 export default {
   setup () {
-    const divRef = ref('')
     const modal = useModal()
     const state = reactive({
       showMenu: false,
@@ -96,7 +94,6 @@ export default {
       state.showMenu = !state.showMenu
     }
 
-  
    function handleScroll () {
 
       if (window.pageYOffset > 0) {
@@ -119,8 +116,7 @@ export default {
     return {
       state,
       toggleNavbar,
-      handleContato,
-      divRef
+      handleContato
     }
   }
 }
