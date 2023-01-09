@@ -7,8 +7,8 @@
   transition duration-200"
   :class="{ 'scrolled': !state.atTopOfPage }"
   >
-        <div class="flex items-center cursor-pointer">
-          <a class="inline-block md:mr-4 sm:ml-4 py-2 whitespace-nowrap" href="#home">
+        <div class="flex items-center">
+          <a class="inline-block md:mr-4 sm:ml-4 py-2 whitespace-nowrap cursor-pointer" href="#home">
              <img src="../assets/images/logo-gustavo.png" class="w-36 h-full" alt="">
           </a>
       
