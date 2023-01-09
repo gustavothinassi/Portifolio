@@ -19,7 +19,7 @@
           Estou sempre dedicando meu tempo em aprender novas tecnologias e novos conhecimentos na minha vida profissional.
         </p>
         <p class="md:break-normal font-base text-white md:text-xl mt-6">
-          Atualmente estou trabalhando como freelancere procurando oportunidades de trabalho
+          Atualmente estou trabalhando como freelancere e procurando oportunidades de trabalho na area.
         </p>
         <p class="md:break-normal font-base text-white md:text-xl">
           Minhas linguagens de programação favoritas são VueJS, TailwindCSS e JavaScript
