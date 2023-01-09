@@ -12,16 +12,16 @@
       <div class="flex justify-center md:justify-start">
         <h2 class="text-2xl md:text-3xl font-bold text-white">Gustavo Thinassi</h2>
       </div>
-        <p class="md:break-normal break-all font-base text-white md:text-xl mt-6">
+        <p class="md:break-normal font-base text-white md:text-xl mt-6">
           Sou formado em Ciência da Computação e focado em programação web front-end.
         </p>
-        <p class="md:break-normal break-all font-base text-white md:text-xl">
+        <p class="md:break-normal font-base text-white md:text-xl">
           Estou sempre dedicando meu tempo em aprender novas tecnologias e novos conhecimentos na minha vida profissional.
         </p>
-        <p class="md:break-normal break-all font-base text-white md:text-xl mt-4">
+        <p class="md:break-normal font-base text-white md:text-xl mt-6">
           Sou uma pessoa totalmente focada em atingir os meus objetivos e alcançar metas na carreira.
         </p>
-        <p class="md:break-normal break-all font-base text-white md:text-xl">
+        <p class="md:break-normal font-base text-white md:text-xl">
           Alem disso, tenho facilidade em lidar com colegas de trabalho.
         </p>
 
