@@ -36,7 +36,7 @@ import { onMounted, reactive, watchEffect } from 'vue'
 export default {
   setup () {
     const state = reactive({
-      titleText: 'Desenvolvedor web front-end  ',
+      titleText: 'Desenvolvedor front-end  ',
       typeText: [],
       paper: '',
       timer: null
