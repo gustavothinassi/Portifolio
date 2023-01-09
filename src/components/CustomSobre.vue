@@ -8,19 +8,24 @@
     <div class="w-full h-full z-10 p-8 md:p-16 max-[768px]:order-last">
        <img src="../assets/images/sobre.png" alt="sobre">
     </div>
-    <div class="flex flex-col p-4 md:mt-10">
+    <div class="flex flex-col md:mt-10">
       <div class="flex justify-center md:justify-start">
         <h2 class="text-2xl md:text-3xl font-bold text-white">Gustavo Thinassi</h2>
       </div>
-        <div class="mt-6 md:break-normal break-all md:text-xl text-base font-base text-white">
-          <p>Sou formado em Ciencia da Computação e focado em programação web front-end.</p>
-          <p>Estou sempre dedicando meu tempo em apreender novas tecnologias e novos conhecimentos na minha vida profissional.</p>
-        </div>
-        <div class="mt-6 md:break-normal break-all md:text-xl text-base font-base text-white">
-        <p>Sou uma pessoa totalmente focada em atingir os meus objetivos e alcançar metas na carreira.</p>
-        <p>Alem disso, tenho facilidade em lidar com colegas de trabalho</p>
-      </div>
-</div>
+        <p class="md:break-normal break-all font-base text-white md:text-xl mt-6">
+          Sou formado em Ciência da Computação e focado em programação web front-end.
+        </p>
+        <p class="md:break-normal break-all font-base text-white md:text-xl">
+          Estou sempre dedicando meu tempo em aprender novas tecnologias e novos conhecimentos na minha vida profissional.
+        </p>
+        <p class="md:break-normal break-all font-base text-white md:text-xl mt-4">
+          Sou uma pessoa totalmente focada em atingir os meus objetivos e alcançar metas na carreira.
+        </p>
+        <p class="md:break-normal break-all font-base text-white md:text-xl">
+          Alem disso, tenho facilidade em lidar com colegas de trabalho.
+        </p>
+
+    </div>
     </div>
   </section>
 </template>
