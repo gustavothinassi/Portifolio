@@ -25,7 +25,7 @@
         placeholder="Digite seu nome"
         >
     </label>
-    <label class="block">
+    <label class="block mt-3">
         <span class="text-base font-base text-white">E-mail</span>
         <input
         type="email"
@@ -34,7 +34,7 @@
         >
     </label>
 
-     <label class="block">
+     <label class="block mt-3">
         <span class="text-base font-base text-white">Mensagem</span>
         <textarea
 						class="w-full px-2 py-1 border rounded-md shadow-sm text-md"
