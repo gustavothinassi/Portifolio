@@ -9,19 +9,19 @@
        <img src="../assets/images/sobre.png" alt="sobre">
     </div>
     <div class="flex flex-col md:mt-10">
-      <div class="flex justify-center md:justify-start">
+      <div class="flex justify-center md:justify-start mg:mt-0 mt-4">
         <h2 class="text-2xl md:text-3xl font-bold text-white">Gustavo Thinassi</h2>
       </div>
-        <p class="md:break-normal font-base text-white md:text-xl mt-6">
+        <p class="md:break-normal font-base text-white md:text-xl mt-6 text-justify">
           Sou formado em Ciência da Computação e focado em programação web.
         </p>
-        <p class="md:break-normal font-base text-white md:text-xl">
+        <p class="md:break-normal font-base text-white md:text-xl text-justify">
           Estou sempre dedicando meu tempo em aprender novas tecnologias e novos conhecimentos na minha vida profissional.
         </p>
-        <p class="md:break-normal font-base text-white md:text-xl mt-6">
+        <p class="md:break-normal font-base text-white md:text-xl mt-6text-justify">
           Atualmente estou trabalhando como freelancere e procurando oportunidades de trabalho na area.
         </p>
-        <p class="md:break-normal font-base text-white md:text-xl">
+        <p class="md:break-normal font-base text-white md:text-xl text-justify">
           Minhas linguagens de programação favoritas são VueJS, TailwindCSS e JavaScript
         </p>
 
