@@ -13,7 +13,7 @@
         <h2 class="text-2xl md:text-3xl font-bold text-white">Gustavo Thinassi</h2>
       </div>
         <p class="md:break-normal font-base text-white md:text-xl mt-6">
-          Sou formado em Ciência da Computação e focado em programação front-end.
+          Sou formado em Ciência da Computação e focado em programação web.
         </p>
         <p class="md:break-normal font-base text-white md:text-xl">
           Estou sempre dedicando meu tempo em aprender novas tecnologias e novos conhecimentos na minha vida profissional.

@@ -42,14 +42,14 @@
           <li class="md:mx-4 md:my-0 my-3">
            <a
            @click="state.showMenu = false"
-           class="text-lg hover:text-brand-thirdblue hover:transition duration-700" 
+           class="text-lg hover:text-brand-thirdblue hover:transition duration-700"
            href="/#home">Home</a>
           </li>
           
           <li class="md:mx-4 md:my-0 my-3">
            <a
            @click="state.showMenu = false"
-           class="text-lg hover:text-brand-thirdblue hover:transition duration-700" 
+           class="text-lg hover:text-brand-thirdblue hover:transition duration-700"
            href="#sobre">Sobre</a>
           </li>
           <li class="md:mx-4 md:my-0 my-3">
