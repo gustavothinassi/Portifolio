@@ -57,6 +57,22 @@
         </div>
         <h3 class="text-white text-xl font-base">Git</h3>
       </div>
+      <div
+        class="grid place-items-center text-center gap-5 p-8 rounded-xl text-white bg-brand-secondblue"
+      >
+        <div class="w-16 h-16">
+         <img src="../assets/images/quasar.png" alt="">
+        </div>
+        <h3 class="text-white text-xl font-base">Quasar</h3>
+      </div>
+      <div
+        class="grid place-items-center text-center gap-5 p-8 rounded-xl text-white bg-brand-secondblue"
+      >
+        <div class="w-16 h-16">
+         <img src="../assets/images/laravel.png" alt="">
+        </div>
+        <h3 class="text-white text-xl font-base">Laravel</h3>
+      </div>
     </div>
     </div>
   </section>

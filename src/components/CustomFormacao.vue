@@ -28,8 +28,8 @@
           <img src="../assets/images/odin-logo.png" alt="">
         </div>
         <div class="mt-20">
-          <h3 class="text-xl font-bold">JavaScript</h3>
-          <p class="text-base font-base">2022 - Em andamento</p>
+          <h3 class="text-xl font-bold">NodeJs</h3>
+          <p class="text-base font-base">2023 - Concluido</p>
         </div>
       </div>
     </div>

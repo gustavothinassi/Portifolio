@@ -15,7 +15,7 @@
           <p class="text-base mt-6 font-base md:text-base">Sou um desenvolvedor dedicado, focado em resolver problemas. Domino novas tecnologias com facilidade; sempre disposto a aprender coisas novas.</p>
         </div>
        <div class="flex mt-4 space-x-2 justify-init mb-8 justify-center md:justify-start">
-            <a class="inline-block px-9 py-2 border-2 border-brand-secondblue text-white font-medium text-sm leading-tight uppercase hover:opacity-80 focus:outline-none focus:ring-0 rounded-full bg-brand-secondblue" href="#">Download CV</a>
+            <a class="inline-block px-9 py-2 border-2 border-brand-secondblue text-white font-medium text-sm leading-tight uppercase hover:opacity-80 focus:outline-none focus:ring-0 rounded-full bg-brand-secondblue" href="https://drive.google.com/file/d/1wp-CVh8aCuSjhr60qx9xLErnUtFnoWfg/view?usp=sharing">Download CV</a>
         </div>
       </div>
       <div class="md:w-full md:h-full order-1 lg:order-2 py-3 p-4 mt-10">
