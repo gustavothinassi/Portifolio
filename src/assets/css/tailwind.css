@@ -39,7 +39,7 @@ body,
     }
   }
  .scrolled {
-    @apply backdrop-blur-xl bg-brand-secondblue/30
+    @apply bg-brand-secondblue/30
   }
 
 
