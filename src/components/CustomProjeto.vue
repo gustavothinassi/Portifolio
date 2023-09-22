@@ -58,6 +58,22 @@
           </a>
         </div>
       </div>
+      <div class="overflow-hidden shadow-xl rounded-xl border-2 border-brand-secondblue bg-brand-secondblue">
+        <img class="w-full" src="../assets/images/promobarato.jpg" alt="home">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-white">Promobarato</div>
+          <p class="text-white text-base md:text-md sm:text-sm">
+            Projeto iniciado para um cliente, usando Vue 3, Quasar e Firebase. Projeto esta sendo realizado no momento
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-6">
+          <a href="https://promobarato.vercel.app/"
+            class="bg-gray-200 text-sm uppercase rounded-xl mr-4 text-black font-bold py-2 px-4 inline-flex items-center hover:opacity-75">
+            <img class="w-5 h-5 mr-2" src="../assets/images/eye.png" />
+            <span>Demo</span>
+          </a>
+        </div>
+      </div>
     </div>
     <div v-show="state.tab === 2"
       class="p-4 max-w-7xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-5 mb-20 mt-10">

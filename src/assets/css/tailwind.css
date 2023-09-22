@@ -39,7 +39,11 @@ body,
     }
   }
  .scrolled {
-    @apply bg-brand-secondblue/30
+    @apply bg-brand-secondblue/30;
+  }
+
+  .router-link-exact-active {
+    @apply text-brand-secondblue;
   }
 
 
